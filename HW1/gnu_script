@@ -1,0 +1,12 @@
+set title "MyString Case(write disk)"
+set xlabel "frames"
+set ylabel "write disk"
+set terminal png font " Times_New_Roman,12 "
+set output "statistic_MW.png"
+set xtics 30
+set key left 
+
+plot \
+"myref_w_data" using 1:2 with linespoints linewidth 2 title "FIFO", \
+"myref_w_data" using 1:3 with linespoints linewidth 2 title "Optimal", \
+"myref_w_data" using 1:4 with linespoints linewidth 2 title "ARB"

@@ -1,0 +1,10 @@
+client:
+Please input your name: xxx
+Please input your group: xxx
+server:
+connect success
+client:
+Please input command: yyy yyy yyy
+輸入exit時表示結束連線
+
+group:AOS-students  CSE-students other
